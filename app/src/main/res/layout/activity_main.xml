@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="@drawable/cafejam"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/cafejam">
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-
         android:padding="20dp">
-
 
         <TextView
             android:id="@+id/text_view_restaurant_name"
@@ -20,8 +17,8 @@
             android:layout_centerHorizontal="true"
             android:background="#C2185B"
             android:fontFamily="sans-serif-thin"
-            android:padding="10dp"
             android:gravity="center"
+            android:padding="10dp"
             android:text="CODE CAFE JAM"
             android:textColor="@color/white"
             android:textSize="24sp"
@@ -31,12 +28,12 @@
             android:id="@+id/text_view_email_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="codecafejam@ranggazjam.com"
-            android:fontFamily="sans-serif-medium"
             android:layout_below="@id/text_view_restaurant_name"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif-medium"
             android:padding="5dp"
-            android:layout_centerHorizontal="true"/>
+            android:text="codecafejam@ranggazjam.com" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card_view_starters"
